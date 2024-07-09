@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/png" href="image-removebg-preview%20copy.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<div class="highlight-header">
+    <nav>
+        <a href="gpa_calculator.html" id="gpaLink" class="nav-link">GPA Calculator</a>
+        <a href="cgpa_calculator.html" id="cgpaLink" class="nav-link">CGPA Calculator</a>
+        <a href="expected_marks_calculator.html" id="expectedMarksLink" class="nav-link">Expected Marks Calculator</a>
+        <a href="any_sem_cgpa_calculator.html" id="anySemCGPALink" class="nav-link">Any Sem CGPA Calculator</a>
+    </nav>
+
+    <div class="container">
+        <h1>CALCULATE GPA</h1>
+
+        <!-- Table to hold multiple rows -->
+        <table id="courseTable">
+            <thead>
+            <tr>
+                <th>Course</th>
+                <th>Credits</th>
+                <th>Grade</th>
+                <th>Lab</th>
+                <th>Lab Grades</th>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="buttonposition">
+            <div class="submit-container">
+                <button id="submitButton"><p>CALCULATE</p></button>
+            </div>
+            <div id="resultContainer" style="display: none;">
+                <h2>Your GPA is: <span id="Result"></span></h2>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+
+    <p class="footercontent">
+        <i class="fa-brands fa-instagram"></i>  <a href="https://www.instagram.com/arshthakur07?igsh=MThza3J3bDVxOGRscA==" target="_blank">Divyansh Singh</a>
+        <i class="fa-brands fa-instagram"></i>  <a href="https://www.instagram.com/aditya._.pandey._?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Aditya Pandey</a>
+
+    </p>
+</footer>
+<script src="common.js"></script>
+<script src="script1.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" type="image/png" href="image-removebg-preview%20copy.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Any Sem CGPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+          integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+</head>
+<body>
+<div class="highlight-header">
+    <nav>
+        <a href="gpa_calculator.html" id="gpaLink" class="nav-link">GPA Calculator</a>
+        <a href="cgpa_calculator.html" id="cgpaLink" class="nav-link">CGPA Calculator</a>
+        <a href="expected_marks_calculator.html" id="expectedMarksLink" class="nav-link">Expected Marks Calculator</a>
+        <a href="any_sem_cgpa_calculator.html" id="anySemCGPALink" class="nav-link">Any Sem CGPA Calculator</a>
+    </nav>
+
+
+    <div class="container">
+        <h1 class="any">CALCULATE SEM CGPA</h1>
+        <form>
+            <table>
+                <tr>
+                    <th><h3>Sem</h3></th>
+                    <th><p>GPA</p></th>
+                    <th><p>Credits</p></th>
+                </tr>
+
+                <tr class="a">
+                    <td>1</td>
+                    <td><input type="number" id="1thSemGPA" name="1thSemGPA" step="0.01" max="10" required></td>
+                    <td><input type="number" id="1thSemCredits" name="1thSemCredits" max="31" required></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td><input type="number" id="2thSemGPA" name="2thSemGPA" step="0.01" max="10" required></td>
+                    <td><input type="number" id="2thSemCredits" name="2thSemCredits" max="31" required></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><input type="number" id="3thSemGPA" name="3thSemGPA" step="0.01" max="10" required></td>
+                    <td><input type="number" id="3thSemCredits" name="3thSemCredits" max="31" required></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><input type="number" id="4thSemGPA" name="4thSemGPA" step="0.01" max="10" required></td>
+                    <td><input type="number" id="4thSemCredits" name="4thSemCredits" max="31" required></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><input type="number" id="5thSemGPA" name="5thSemGPA" step="0.01" max="10" required></td>
+                    <td><input type="number" id="5thSemCredits" name="5thSemCredits" max="31" required></td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><input type="number" id="6thSemGPA" name="6thSemGPA" step="0.01" max="10" required></td>
+                    <td><input type="number" id="6thSemCredits" name="6thSemCredits" max="31" required></td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><input type="number" id="7thSemGPA" name="7thSemGPA" step="0.01" max="10" required></td>
+                    <td><input type="number" id="7thSemCredits" name="7thSemCredits" max="31" required></td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><input type="number" id="8thSemGPA" name="8thSemGPA" step="0.01" max="10" required></td>
+                    <td><input type="number" id="8thSemCredits" name="8thSemCredits" max="31" required></td>
+                </tr>
+
+            </table>
+        </form>
+        <div class="buttonposition">
+            <div class="submit-container">
+                <button id="submitButton"><p>CALCULATE</p></button>
+            </div>
+            <div id="resultContainer" style="display: none;">
+                <h2>Your CGPA is: <span id="Result"></span></h2>
+            </div>
+        </div>
+    </div>
+</div>
+<footer class="footer">
+    <p class="footercontent">
+        <i class="fa-brands fa-instagram" style="color: black;"></i>
+        <a href="https://www.instagram.com/aditya._.pandey._?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">Aditya Pandey</a>
+        <i class="fa-brands fa-instagram" style="color: black;"></i>
+        <a href="https://www.instagram.com/arshthakur07?igsh=MThza3J3bDVxOGRscA==" target="_blank">Divyansh Singh</a>
+
+    </p>
+</footer>
+<script src="common.js"></script>
+<script src="script4.js"></script>
+</body>
+</html>
