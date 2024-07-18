@@ -6,14 +6,14 @@
 }
 
 body {
-    padding-right: 130px;
     overflow-x:  hidden;
-    width: 110%;
+    width: 100%;
+    height: auto;
 }
 
 .highlight-header {
     width: 100%;
-    min-height: 100vh;
+    min-height: 116vh;
     background: #005AA7;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to top, #d2d1bb, #005AA7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #d4d3c2, #005AA7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -39,7 +39,7 @@ nav {
 }
 
 .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #080909;
     text-decoration: none;
     padding: 10px 20px;
